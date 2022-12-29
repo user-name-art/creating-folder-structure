@@ -10,7 +10,9 @@ if __name__ == '__main__':
 
     if choise == 1:
         create_dirs_districts(month, actual_data)
+        print(f'Папки районов для месяца {month} созданы.')
     elif choise == 2:
         create_dirs_sirens(month, actual_data)
+        print(f'Папки районов и РСУ для месяца {month} созданы.')
     else:
         print('Читаем внимательно, только 1 или 2.')
